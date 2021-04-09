@@ -9,6 +9,11 @@
     <Copyright>Shaesk</Copyright>
     <RepositoryUrl>https://github.com/serdarozkan41/Shaesk.Auth</RepositoryUrl>
     <PackageProjectUrl>https://shaesk.com/</PackageProjectUrl>
+    <PackageLicenseFile>licence.txt</PackageLicenseFile>
+    <PackageTags>.net core, auth, authorize</PackageTags>
+    <PackageReleaseNotes>First Publish</PackageReleaseNotes>
+    <Description>This package add auth controller your project auto.
+check sample project open github.</Description>
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,6 +26,13 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Desktop\licence.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
