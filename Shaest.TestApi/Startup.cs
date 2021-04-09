@@ -32,7 +32,7 @@ namespace Shaest.TestApi
         {
             var authSettings = Configuration.GetSection("AuthSettings").Get<AuthSettings>();
             services.AddAuthLayer(authSettings,
-                x => x.UseSqlServer(authSettings.ConnectionString,
+                x => x.UseSqlServer("CONNECTÝON String",
                 y => y.MigrationsAssembly("Shaest.TestApi")));
 
             services.AddControllers();

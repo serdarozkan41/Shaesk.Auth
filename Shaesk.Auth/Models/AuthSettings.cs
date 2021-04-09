@@ -2,7 +2,6 @@
 {
     public class AuthSettings
     {
-        public string ConnectionString { get; set; }
         public string SigningKey { get; set; }
     }
 }

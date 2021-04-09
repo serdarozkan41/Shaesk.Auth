@@ -14,6 +14,7 @@
     <PackageReleaseNotes>First Publish</PackageReleaseNotes>
     <Description>This package add auth controller your project auto.
 check sample project open github.</Description>
+    <Version>1.0.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
