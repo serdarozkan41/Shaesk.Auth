@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shaesk.Auth", "Shaesk.Auth\Shaesk.Auth.csproj", "{7A2777C8-CFCB-4131-8802-9AC7A0960737}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shaest.TestApi", "Shaest.TestApi\Shaest.TestApi.csproj", "{A74B76A8-BD1F-47E8-8C1C-A4BEC530645B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A2777C8-CFCB-4131-8802-9AC7A0960737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A2777C8-CFCB-4131-8802-9AC7A0960737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A2777C8-CFCB-4131-8802-9AC7A0960737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A2777C8-CFCB-4131-8802-9AC7A0960737}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A74B76A8-BD1F-47E8-8C1C-A4BEC530645B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A74B76A8-BD1F-47E8-8C1C-A4BEC530645B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A74B76A8-BD1F-47E8-8C1C-A4BEC530645B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A74B76A8-BD1F-47E8-8C1C-A4BEC530645B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59906AA7-C2D7-4F03-85E2-214FF6BEEF97}
+	EndGlobalSection
+EndGlobal
