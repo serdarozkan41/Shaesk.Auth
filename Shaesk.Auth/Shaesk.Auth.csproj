@@ -4,9 +4,11 @@
     <TargetFramework>net5.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Company>Shaesk</Company>
-    <Product>Auth Lib</Product>
+    <Product>Shaesk Auth</Product>
     <Authors>Serdar OZKAN</Authors>
     <Copyright>Shaesk</Copyright>
+    <RepositoryUrl>https://github.com/serdarozkan41/Shaesk.Auth</RepositoryUrl>
+    <PackageProjectUrl>https://shaesk.com/</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
