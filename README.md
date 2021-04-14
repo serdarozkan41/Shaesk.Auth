@@ -6,8 +6,8 @@ Startup add ConfigureServices methods in.
 ```sh
  var authSettings = Configuration.GetSection("AuthSettings").Get<AuthSettings>();
             services.AddAuthLayer(authSettings,
-                x => x.UseSqlServer(authSettings.ConnectionString,
-                y => y.MigrationsAssembly("Shaest.TestApi")));
+                x => x.UseSqlServer("connection string",
+                y => y.MigrationsAssembly("YOUR API NAMESPACE")));
 ```
 Startup add Configure methods in.
 ```sh
@@ -18,7 +18,6 @@ Startup add Configure methods in.
 Add Application Settings
 ```sh
 "AuthSettings": {
-    "ConnectionString": "Data Source=xx;User Id=xx;Password=xx;Initial Catalog=xxx;",
     "SigningKey": "e@_E7Yg4xk;>Bb:e-8PM/6.FpQCm/f46="
   }
 ```
