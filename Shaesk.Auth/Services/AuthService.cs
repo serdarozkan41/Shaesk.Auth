@@ -65,10 +65,10 @@ namespace Shaesk.Auth.Services
             if (user is null)
                 throw new ApiException($"{req.LoginKey} kullanıcısı bulunamadı.");
 
-            if (user.IsActive)
+            if (!user.IsActive)
                 throw new ApiException($"Hesabınız aktif değil lütfen sistem yöneticinize başvurunuz.");
 
-            if (user.IsEmailVerification)
+            if (!user.IsEmailVerification)
                 throw new ApiException($"Lütfen önce mail adresinizi doğrulayınız.");
 
             user = await _context.Users.FirstOrDefaultAsync(
